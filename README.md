@@ -1,6 +1,3 @@
-<li> 
-  * Lesson 4
-  * Lesson 5
-  * Lesson 6
-  * Lesson 7
-  * Lesson 8
+- Lesson 1
++ Lesson 2
++ Lessson 3
