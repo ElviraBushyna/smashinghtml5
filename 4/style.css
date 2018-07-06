@@ -1,0 +1,15 @@
+.Noty{
+	color: #F57878;
+	text-align: center;
+	background-color: #5a5a5a;
+
+}
+.MainForm{
+	background-color: #988DB3;
+	color: white;
+	margin-left: 20%;
+	margin-right:20%;
+}
+body { background-color: #282828;
+border: 15px;
+}
