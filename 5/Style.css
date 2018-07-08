@@ -1,14 +1,14 @@
-* {margin:0;
+*{margin:0;
 padding:0;
 border:0;
 box-sizing:border-box;
 }
-html,body {
+html,body{
 	background-color: #3398cc;
 	color: #eaffff;
 	font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-
 }
+
 body {
 	border-color: #2D80AA;
 	border-style: solid;
@@ -85,9 +85,9 @@ li:nth-child(11) {
 	background-color: red;
 	width:100%;
 	}
-li:hover {
-	opacity:0.5;
-}	
+ li:hover:before{
+	opacity:1;
+}
 .wi {padding-top:10px;
 font-size:20px;}
 span {
