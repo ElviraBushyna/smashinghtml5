@@ -39,8 +39,8 @@ body {
 } 
 .Title_Input {
 	position: absolute;
-	background-color: black;
-	color:white;
+	/*background-color: black;*/
+	color:black;
 	
 	z-index: 2;
 }
