@@ -85,8 +85,8 @@ li:nth-child(11) {
 	background-color: red;
 	width:100%;
 	}
- li:hover:before{
-	opacity:1;
+ ul:hover li:not(:hover) {
+  opacity:0.5;
 }
 .wi {padding-top:10px;
 font-size:20px;}
