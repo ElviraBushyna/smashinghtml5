@@ -32,7 +32,10 @@ p{
 	text-align:justify;
 	font-size:19px;
 	font-weight:300;
+	padding-bottom: 20px;
+	padding-right:110px;
 	/*outline-style:solid;*/
+
 }
 .title {
 	clear:both;
@@ -48,29 +51,34 @@ p{
 	height:78.3%*/
 }
 input {
-	width: 210px;
-   height: 52px;
+	width: 260px;
+    height: 64px;
 	clear:both;
 	text-align:center;
     font-family: 'Lato', sans-serif;
-    font-weight:bold;
+    font-weight:700;
     background:white;
-    border:1px solid orange;
+    border:2px solid orange;
     color:orange;
-    font-size:15px;
+    font-size:18px;
     letter-spacing:0.2em;
     text-transform:uppercase;
+  
     
 }
 .footer {
-	padding-top:40px;
+	padding-left: 0px;
+	padding-bottom: 0px;
 
 }
-subquoter {
+blockquote p {
 	font-family: 'Lato', sans-serif;
-	font-size:20px;	
+	font-size:24px;	
 	font-style:italic;
-	font-weight:100;
+	font-weight:300;
 	opacity:0.5;
-	line-height:2;
+	line-height:24px;
+}
+blockquote {
+	padding-bottom:0px;
 }
