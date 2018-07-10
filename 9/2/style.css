@@ -1,0 +1,60 @@
+.text {
+
+	float:left;
+	width:618px;
+	padding-left: 100px;
+	padding-top: 50px;
+}
+
+.containhead {
+	display:inline-block;
+	width:1500px;
+	height:952px;
+	background-color:#eeeeee;
+}
+#ears {
+	position:absolute;
+	padding:80px;
+	}
+	
+.earings {
+	padding-top:100px;
+   display:inline-block;  
+   background-image: url(gradient.png);
+	background-attachment: inherit; 
+	}
+}	
+.earings input {
+	padding-left:
+}
+input {
+	background-color:#eeeeee;
+	border:none;
+}
+.text input {
+	
+	font-family: Roboto;
+    color:  #e10011;
+    font-size: 24px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 36px;/* Приближение из-за подстановки шрифтов */
+    float:right;
+}
+
+	
+h1 {
+font-family: Raleway;
+color:  #303030;
+font-size: 150px;/* Приближение из-за подстановки шрифтов */
+font-weight: 900;
+line-height: 150px;/* Приближение из-за подстановки шрифтов */
+text-align: right;
+}
+h3 {
+	font-family: Roboto;
+color:  #303030;
+font-size: 48px;/* Приближение из-за подстановки шрифтов */
+font-weight: 900;
+line-height: 27px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+}
