@@ -20,9 +20,8 @@
 .earings {
 	padding-top:100px;
    display:inline-block;  
-   background-image: url(gradient.png);
-	background-attachment: inherit; 
-	}
+   background-image: url('gradient.png'); 
+	
 }	
 .earings input {
 	padding-left:
@@ -33,7 +32,7 @@ input {
 }
 .text input {
 	
-	font-family: Roboto;
+	font-family: 'Roboto' ,sans-serif;
     color:  #e10011;
     font-size: 24px;/* Приближение из-за подстановки шрифтов */
     font-weight: 700;
@@ -43,7 +42,7 @@ input {
 
 	
 h1 {
-font-family: Raleway;
+font-family: Raleway,sans-serif;
 color:  #303030;
 font-size: 150px;/* Приближение из-за подстановки шрифтов */
 font-weight: 900;
@@ -51,7 +50,7 @@ line-height: 150px;/* Приближение из-за подстановки ш
 text-align: right;
 }
 h3 {
-	font-family: Roboto;
+	font-family: 'Roboto' ,sans-serif;
 color:  #303030;
 font-size: 48px;/* Приближение из-за подстановки шрифтов */
 font-weight: 900;
