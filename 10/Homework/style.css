@@ -1,0 +1,47 @@
+
+table {
+
+	width:100%;
+	border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+    /*border: 5px solid grey;*/
+}
+
+td{ position:relative;
+	border: 1px solid grey;
+	/*padding:50px;*/
+	/*width:10%;*/
+	padding:6.22%;
+	}
+table .circle {
+ position: absolute;
+  height: 100px;
+  width: 100px;
+  background: red;
+  border-radius: 50%;
+  margin:auto;
+  top:0;
+  left:0;
+}
+
+table tr:nth-child(odd) td:nth-child(2n),
+table tr:nth-child(even) td:nth-child(2n+1) 
+{
+    background:#ccc;
+    
+} 
+table tr:nth-child(odd) td:nth-child(2n+1) div,
+table tr:nth-child(even) td:nth-child(2n) div
+{
+	visibility:hidden;
+
+}
+
+table tr:nth-child(n+5) td div
+{
+	background:green;
+}
+
+.contain {
+	width:800px;
+	height:800px;
+}
