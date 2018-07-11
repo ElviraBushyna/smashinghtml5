@@ -5,3 +5,9 @@
   + ### [*Classwork*](https://elvirabushyna.github.io/smashinghtml5/7/classwork)
   + ### [*Homework*](https://elvirabushyna.github.io/smashinghtml5/7/)
 + ## **Lesson 8**  [*ClassWork*](https://elvirabushyna.github.io/smashinghtml5/8/)
++ ## **Lesson 9** 
+  + ### [*Classwork*](https://elvirabushyna.github.io/smashinghtml5/9/1)
+  + ### [*Homework*](https://elvirabushyna.github.io/smashinghtml5/9/2)
++ ## **Lesson 10**  
+  + ### [*Classwork*](https://elvirabushyna.github.io/smashinghtml5/10/classwork/1)
+  + ### [*Homework*](https://elvirabushyna.github.io/smashinghtml5/10/Homework)
