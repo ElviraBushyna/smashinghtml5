@@ -126,7 +126,7 @@ textarea {
 	padding: 160px 0;
 	font-size:16px;
 }
-
+   /****** BORDER for block******/
 .ba-box {
 	border: 2px solid #3c3c3c;
 	border-width:0 2px 2px;
@@ -160,7 +160,8 @@ textarea {
 
 .ba-box--light:before, .ba-box--light:after {
 		background-color:#FFF;
-		},
+		}
+
 .ba-box__title {
 	font-size: 34px;
 	text-transform: uppercase;
@@ -169,15 +170,74 @@ textarea {
 	top:0;
 	text-align:center;
 	width:52%;
-	transform:translateY(-50%);
+	transform:translateY(-100%);
 }
 /*Services*/
 
 .ba-section {
 	padding:130px 0 110px;
 }
+
 .ba-section--services {
 	color:#FFF;
 	background: #AAB5CA url(../img/services.jpg) 50% no-repeat;
 	background-size: cover;
+}
+/*What We Do SECTION*/
+
+.ba-whatwedo__title {
+    color:  #3c3c3c;
+    font-size: 1.248em;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+   transform: scaleY(1.002);
+   
+}
+.ba-box__title--whatwedo {
+	margin-bottom:100px;
+}
+.ba-logo--whatwedo{
+
+	margin-bottom: 20px;
+}
+/* Grid Section*/
+.ba-conteiner__grid {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	margin-right:10px;
+}
+.ba-grid__element {
+	margin-right:10px;
+	flex-grow:1;
+}
+.ba-grid__image {
+	position:relative;
+	z-index:1;
+}
+.ba-grid__title {
+	transform:translateY(-126px);
+	position:absolute;
+	z-index:2;
+	padding-left:20px;
+	color:  #ffffff;
+   font-size:34px;
+   font-weight: 700;
+    text-transform: uppercase;
+}
+/*Contact Us SECTION*/
+.ba-batton__contactus {
+
+	border-width: 2px;
+    border-color:  #3c3c3c;
+    border-style: solid;
+    background-color:  #3c3c3c;
+    width: 50%;
+    text-transform: uppercase;
+
+    color:#ffff;
+    font-size: 0.992em;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+padding:10px;
 }
