@@ -1,0 +1,78 @@
+.ba-container {
+	background-color:#fddf7f;
+	color:#333333;
+	width:100%;
+	height:600px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+
+}
+.plan {
+	background-color: white;
+	width: 360px;
+height: 441px;
+display:flex;
+flex-direction:column;
+justify-content:space-around;
+	align-items:center;
+}
+
+.plan--gold {
+	
+
+}
+
+.plan--active {
+	height: 500px;
+
+}
+
+.plan__price {
+	color:#02995b;
+font-size: 70px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+
+}
+
+.cup {
+	position:relative;
+	
+}
+
+.cup__smoke {
+	width: 49px;
+height: 46px;
+
+}
+
+.cup__bean {
+	width: 36px;
+height: 45px;
+position:absolute;
+
+}
+
+.cup__cup {
+	
+width: 135px;
+    height: 77px;
+}
+
+.plan__title {
+font-size: 56px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+
+
+}
+.plan__description {
+font-size: 20px;/* Приближение из-за подстановки шрифтов */
+font-weight: 300;
+line-height: 26px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+
+}

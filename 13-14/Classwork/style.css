@@ -1,0 +1,27 @@
+
+body {
+  background-color:black;
+  display:block;
+  padding:0 50%;
+}
+.form {
+  background-color:white;
+   width:300px;
+   border:2px solid lightgrey;
+   padding:20px;
+}
+
+.form__input {
+  display:block;
+  border-radius:5px;
+  margin-bottom:20px;
+  line-height:25px;
+  width:100%;
+}
+.form__input--button {
+  width:40%;
+  font-size:12px;
+  border-radius:5px;
+  background-color:olive;
+  line-height:25px;
+}

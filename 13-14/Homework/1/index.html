@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Payment-form</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="description" content="" />
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="payment-form">
+        <header class="payment-form__header">
+            <SPAN class="payment-form__total">$88</SPAN>
+            <h1 class="payment-form__user">Harold Finch</h1>
+            <h2 class="payment-form__user-subtitle">YOUR TOTAL</h2>
+        </header>
+        <main>
+            <label>
+                <span>Credit card number</span>
+                <br>
+                <input class="payment-form__input" type="text" name="Credit card">
+            </label>
+            <div class="payment-form__select ">
+                <label>
+                    <span>Expiration date</span>
+                    <br>
+                    <select class="payment-form__select--mounth">
+                        <option>Mounth</option>
+                    </select>
+                </label>
+                <label>
+                    <select class="payment-form__select--year">
+                        <option>Year</option>
+                    </select>
+                </label>
+            </div>
+            <div class="payment-form__input-cvv">
+                <span>CVV</span>
+                <br>
+                <input class="payment-form__input--cvv" type="text" name="cvv">
+                <span class="payment-form__cvv-example"> </span>
+                       <span>3 or 4 digits -</span> <a href="">view example</a>
+      
+            </div>
+        </main>
+        <footer>
+            <button class="payment-form__button">Pay</button>
+            <button class="payment-form__button--cancel"><span>Cancel order</span></button>
+        </footer>
+    </div>
+
+</body>
+
+</html>
