@@ -1,0 +1,52 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 5px;
+    background-color:white;
+}
+
+td {
+    position: relative;
+    border: 2px solid yellow;
+    /*padding:50px;*/
+    /*width:10%;*/
+    padding: 6.22%;
+}
+
+table .circle {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    background: white;
+    border-radius: 50%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+table tr:nth-child(odd) td:nth-child(2n),
+table tr:nth-child(even) td:nth-child(2n+1) {
+    background: #381c05;
+}
+
+table tr:nth-child(odd) td:nth-child(2n+1) div,
+table tr:nth-child(even) td:nth-child(2n) div,
+table tr:nth-child(4) td div,
+table tr:nth-child(5) td div
+ {
+    visibility: hidden;
+}
+
+table tr:nth-child(n+5) td div {
+    background: black;
+    border: 1px solid white;
+}
+
+.contain {
+	background-color:#6d370a;
+	padding:30px;
+    width: 820px;
+    height: 820px;
+}

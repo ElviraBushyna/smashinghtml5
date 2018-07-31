@@ -1,0 +1,168 @@
+body {
+	background: lightgrey url('img/background.jpg') no-repeat center;
+	font-family: Montserrat;
+	font-weight: 400;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	 box-sizing: border-box;
+	 margin:30px;
+}
+main {
+	padding-left:20px;
+	
+}
+.payment-form {
+
+	box-sizing:border-box;
+	width: 336px;
+    height: 532px;
+	background-color:white;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	align-content:space-between;
+
+
+	
+	
+}
+.payment-form__header {
+	
+	box-sizing:border-box;
+	background-color:#f8edaf;
+	width: 100%;
+    height: 72px;
+    padding:10px;
+    margin-bottom:20px;
+    
+	
+}
+.payment-form__user {
+
+    color:  #6e7f7b;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+	
+
+}
+.payment-form__user-subtitle {
+
+    color:  #a6a28d;
+    font-size: 10px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+	
+
+}
+.payment-form__total{
+	
+
+color:  #637570;
+font-size: 36px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+float: right;
+}
+.payment-form__input {
+	 box-sizing: border-box;
+border-style: solid;
+border-width: 2px;
+border-color:  #82d4e7;
+
+background-color:  #ffffff;
+width: 90%;
+height: 44px;
+margin-bottom:30px;
+
+}
+
+.payment-form__select {
+	font-weight: 400;
+	color:  #a6a28d;
+	flex-direction:row;
+    box-sizing: border-box;
+    width: 80%;
+    margin-bottom:30px;
+   
+	
+
+}
+.payment-form__select--mounth {
+	border-style: solid;
+    border-width: 1px;
+    border-color:  #bac8cb;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    width: 60%;
+    height: 44px;
+    color:  #a6a28d;
+	
+
+}
+.payment-form__select--year {
+	border-style: solid;
+border-width: 1px;
+border-color:  #bac8cb;
+box-sizing: border-box;
+background-color:  #ffffff;
+width: 30%;
+height: 44px;
+color:  #a6a28d;
+
+}
+.payment-form__input-cvv {
+	display:block;
+
+    width: 90%;
+    padding-bottom:30px;
+    margin-bottom:30px;
+    margin-right:0px;
+    border-bottom: 1px solid #bac8cb; 
+   
+    
+}
+.payment-form__input--cvv {
+	box-sizing: border-box;
+    width: 25%;
+    height: 44px;
+    
+}
+.payment-form__cvv-example {
+
+    color:  #9eabad;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    
+
+
+}
+.payment-form__button {
+	background-color:  #25b86a;
+    width: 100%;
+    height: 44px;
+    border:none;
+     margin-bottom:30px;
+    
+	
+}
+.payment-form__button--cancel {
+	background-color:  #ffffff;
+    width: 80%;
+    height: 44px;
+    border:none;
+    
+    margin-bottom:30px;
+}
+.payment-form__button--cancel>span {
+	border-bottom:1px solid #bac8cb;}
+
+span {
+	
+    color:  #9eabad;
+    font-size: 13px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    margin-bottom:20px;
+}

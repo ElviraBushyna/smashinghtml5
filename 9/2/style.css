@@ -1,3 +1,6 @@
+.background {
+	background-color:#eeeeee;
+}
 .text {
 
 	float:left;
@@ -5,27 +8,29 @@
 	padding-left: 100px;
 	padding-top: 50px;
 }
-
+body {
+	width:1500px;
+}
 .containhead {
 	display:inline-block;
-	width:1500px;
-	height:952px;
+	width:100%;
 	background-color:#eeeeee;
 }
 #ears {
 	position:absolute;
 	padding:80px;
 	}
+#slider_nav {
+	clear:both;
+}	
 	
 .earings {
 	padding-top:100px;
    display:inline-block;  
-   background-image: url('gradient.png'); 
+   background: url('gradient.png'); 
 	
-}	
-.earings input {
-	padding-left:
 }
+
 input {
 	background-color:#eeeeee;
 	border:none;
@@ -40,6 +45,12 @@ input {
     float:right;
 }
 
+.main_content {
+
+	margin:0 auto;
+	width:80%;
+	background-color:red;
+}
 	
 h1 {
 font-family: Raleway,sans-serif;
@@ -50,10 +61,31 @@ line-height: 150px;/* Приближение из-за подстановки ш
 text-align: right;
 }
 h3 {
-	font-family: 'Roboto' ,sans-serif;
+font-family: 'Roboto' ,sans-serif;
 color:  #303030;
 font-size: 48px;/* Приближение из-за подстановки шрифтов */
 font-weight: 900;
 line-height: 27px;/* Приближение из-за подстановки шрифтов */
 text-align: left;
 }
+.inform {
+	font-family: 'Roboto' ,sans-serif;
+	font-size:24px;
+	font-weight:300;
+	line-height:36px;
+	width:571px;
+	height:95px;
+	float:right;
+	overflow:scroll;
+}
+.text_main {
+	text-align:center;
+}
+ .main_content>div {
+ 	float:left;
+ 	padding:30px;
+ }
+ #img_underline {
+ 	
+ 	margin:auto;
+ }
